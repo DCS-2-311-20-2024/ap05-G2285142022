@@ -88,14 +88,6 @@ function init() {
   light.position.set(3, 6, 8);
   light.castShadow = true;
 
-  // 影のカメラ設定（影の描画範囲を広げる）
-  light.shadow.camera.near = 0.1;
-  light.shadow.camera.far = 25;
-  light.shadow.camera.left = -10;
-  light.shadow.camera.right = 10;
-  light.shadow.camera.top = 10;
-  light.shadow.camera.bottom = -10;
-
   scene.add(light);
 
   // 自動販売機の作成
